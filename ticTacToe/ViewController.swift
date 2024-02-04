@@ -38,6 +38,8 @@ class ViewController: UIViewController {
         addToBoard(sender)
     }
     
+
+//logic working, just putting a normal character in
     func addToBoard(_ sender: UIButton) {
         if(sender.image(for: .normal) == nil) {
             if (curTurn == Turn.Xs) {
@@ -50,6 +52,10 @@ class ViewController: UIViewController {
                 turnLabel.text = "X"
             }
         }
+        
+        
+        
+//        logic also works for this section but it is the image and I can't control the button size when the image is placed in the button
         
         //    func addToBoard(_ sender: UIButton) {
         //        if(sender.image(for: .normal) == nil) {
