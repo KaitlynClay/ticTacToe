@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F087E442B700D7400B84981 /* orest.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F087E432B700D7400B84981 /* orest.png */; };
+		3F087E462B700E0700B84981 /* xres.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F087E452B700E0600B84981 /* xres.png */; };
 		3F6876F62B6C058800261CBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6876F52B6C058800261CBF /* AppDelegate.swift */; };
 		3F6876F82B6C058800261CBF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6876F72B6C058800261CBF /* SceneDelegate.swift */; };
 		3F6876FA2B6C058800261CBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6876F92B6C058800261CBF /* ViewController.swift */; };
 		3F6876FD2B6C058800261CBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6876FB2B6C058800261CBF /* Main.storyboard */; };
 		3F6876FF2B6C058A00261CBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F6876FE2B6C058A00261CBF /* Assets.xcassets */; };
 		3F6877022B6C058A00261CBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6877002B6C058A00261CBF /* LaunchScreen.storyboard */; };
-		3F68770A2B6C082E00261CBF /* o.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F6877092B6C082E00261CBF /* o.png */; };
-		3F68770C2B6C083900261CBF /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F68770B2B6C083900261CBF /* x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F087E432B700D7400B84981 /* orest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orest.png; sourceTree = "<group>"; };
+		3F087E452B700E0600B84981 /* xres.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xres.png; sourceTree = "<group>"; };
 		3F6876F22B6C058800261CBF /* ticTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ticTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F6876F52B6C058800261CBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F6876F72B6C058800261CBF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,8 +28,6 @@
 		3F6876FE2B6C058A00261CBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F6877012B6C058A00261CBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F6877032B6C058B00261CBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F6877092B6C082E00261CBF /* o.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = o.png; path = ../../../../Downloads/o.png; sourceTree = "<group>"; };
-		3F68770B2B6C083900261CBF /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = x.png; path = ../../../../Downloads/x.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +65,8 @@
 				3F6876F92B6C058800261CBF /* ViewController.swift */,
 				3F6876FB2B6C058800261CBF /* Main.storyboard */,
 				3F6876FE2B6C058A00261CBF /* Assets.xcassets */,
-				3F68770B2B6C083900261CBF /* x.png */,
-				3F6877092B6C082E00261CBF /* o.png */,
+				3F087E452B700E0600B84981 /* xres.png */,
+				3F087E432B700D7400B84981 /* orest.png */,
 				3F6877002B6C058A00261CBF /* LaunchScreen.storyboard */,
 				3F6877032B6C058B00261CBF /* Info.plist */,
 			);
@@ -131,11 +131,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F087E442B700D7400B84981 /* orest.png in Resources */,
+				3F087E462B700E0700B84981 /* xres.png in Resources */,
 				3F6877022B6C058A00261CBF /* LaunchScreen.storyboard in Resources */,
 				3F6876FF2B6C058A00261CBF /* Assets.xcassets in Resources */,
-				3F68770C2B6C083900261CBF /* x.png in Resources */,
 				3F6876FD2B6C058800261CBF /* Main.storyboard in Resources */,
-				3F68770A2B6C082E00261CBF /* o.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
