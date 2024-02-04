@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         case Xs
         case Os
     }
-
+    
     @IBOutlet weak var turnLabel: UILabel!
     @IBOutlet weak var a1: UIButton!
     @IBOutlet weak var a2: UIButton!
@@ -38,50 +38,51 @@ class ViewController: UIViewController {
         addToBoard(sender)
     }
     
-//    func addToBoard(_ sender: UIButton) {
-//        if(sender.image(for: .normal) == nil) {
-//            if (curTurn == Turn.Xs) {
-//                sender.setTitle("X", for: .normal)
-//                curTurn = Turn.Os
-//                turnLabel.text = "O"
-//            } else if (curTurn == Turn.Os) {
-//                sender.setTitle("O", for: .normal)
-//                curTurn = Turn.Xs
-//                turnLabel.text = "X"
-    //            }
-//        }
-    
     func addToBoard(_ sender: UIButton) {
         if(sender.image(for: .normal) == nil) {
             if (curTurn == Turn.Xs) {
-                sender.setImage(UIImage(named: "x"), for: .normal)
+                sender.setTitle("X", for: .normal)
                 curTurn = Turn.Os
                 turnLabel.text = "O"
             } else if (curTurn == Turn.Os) {
-                sender.setImage(UIImage(named: "o"), for: .normal)
+                sender.setTitle("O", for: .normal)
                 curTurn = Turn.Xs
                 turnLabel.text = "X"
             }
-            sender.isEnabled = false
+        }
+        
+        //    func addToBoard(_ sender: UIButton) {
+        //        if(sender.image(for: .normal) == nil) {
+        //            if (curTurn == Turn.Xs) {
+        //                sender.setImage(UIImage(named: "x"), for: .normal)
+        //                curTurn = Turn.Os
+        //                turnLabel.text = "O"
+        //            } else if (curTurn == Turn.Os) {
+        //                sender.setImage(UIImage(named: "o"), for: .normal)
+        //                curTurn = Turn.Xs
+        //                turnLabel.text = "X"
+        //            }
+        //            sender.isEnabled = false
+        //        }
+        //    }
+        
+        func viewDidLoad() {
+            super.viewDidLoad()
+            
+            a1.frame.size = btnSize
+            a2.frame.size = btnSize
+            a3.frame.size = btnSize
+            b1.frame.size = btnSize
+            b2.frame.size = btnSize
+            b3.frame.size = btnSize
+            c1.frame.size = btnSize
+            c2.frame.size = btnSize
+            c3.frame.size = btnSize
+            
+            
+            
+            
         }
     }
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        a1.frame.size = btnSize
-        a2.frame.size = btnSize
-        a3.frame.size = btnSize
-        b1.frame.size = btnSize
-        b2.frame.size = btnSize
-        b3.frame.size = btnSize
-        c1.frame.size = btnSize
-        c2.frame.size = btnSize
-        c3.frame.size = btnSize
-        
-        
-        
-        
-    }
 }
-
